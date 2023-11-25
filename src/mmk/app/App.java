@@ -19,6 +19,7 @@ public class App {
 		pdf2Jpeg("cover-2");
 		imageComparing("cover-1-1.jpg", "cover-2-1.jpg");
 		
+		System.out.println("completed");
 	}
 	private static void pdf2Jpeg(String fileName) {
 		try {
